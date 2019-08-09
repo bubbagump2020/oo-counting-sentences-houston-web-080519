@@ -20,7 +20,7 @@ class String
     sentence_array = []
     complex_sentence_array = []
     
-    self.split(".").count
+    self.split("[]").count
     
   end
  
