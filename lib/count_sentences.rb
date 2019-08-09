@@ -19,7 +19,7 @@ class String
     sentence_count = 0
     sentence_array = []
     
-    self.split(".", "?")
+    self.split(".")
     
   end
  
