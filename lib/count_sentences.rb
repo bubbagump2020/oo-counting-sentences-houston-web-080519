@@ -28,9 +28,9 @@ class String
         self.split("!").each do |sentence|
           sentence = self.split("!")
           sentence_array.push(sentence)
-          binding.pry
           return sentence_array.count
         end
+        binding.pry
       end
       return sentence_array.count
     end
