@@ -18,9 +18,11 @@ class String
   def count_sentences
     sentence_count = 0
     sentence_array = []
+    complex_sentence_array = []
     
     
     sentence_array = (self.split("."))
+    complex_sentence_array 
     sentence_array.count
     
     
