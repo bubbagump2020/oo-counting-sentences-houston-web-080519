@@ -16,12 +16,7 @@ class String
   end
 
   def count_sentences
-    sentence_array = []
-    sentence = self.split(self.question?, self.sentence?, self.exclamation?)
-    sentence_array.push(sentence)
-    binding.pry
-    sentence_array.count
     
   end
-  binding.pry
+ 
 end
