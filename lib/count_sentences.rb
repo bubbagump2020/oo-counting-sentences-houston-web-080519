@@ -17,7 +17,7 @@ class String
 
   def count_sentences
     sentence_array = []
-    sentence_array self.split(self.question?, self.sentence?, self.exclamation?)
+    sentence_array = self.split(self.question?, self.sentence?, self.exclamation?)
     sentence_array.count
     
   end
