@@ -22,7 +22,7 @@ class String
     
     
     self.split(".").each do |sentence|
-      sentence = self.split(".")
+      self.split(".")
     end
     
     sentence.count
