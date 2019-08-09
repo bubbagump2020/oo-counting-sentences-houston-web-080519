@@ -21,9 +21,13 @@ class String
     complex_sentence_array = []
     
     
-    (self.split(".")).each do |sentence|
+    self.split(".").each do |sentence|
       sentence = self.split(".")
       sentence_array.push(sentence)
+      self.split("?").each do |sentence|
+        sentence = self.split("?")
+        sentence_array.push(sentence)
+      end
     end
     
     sentence_array.count
