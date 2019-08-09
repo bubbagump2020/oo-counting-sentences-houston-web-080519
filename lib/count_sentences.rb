@@ -16,12 +16,7 @@ class String
   end
 
   def count_sentences
-    sentence_count = 0
-    sentence_array = []
-    complex_sentence_array = []
-    
     self.split(/[.!]/).count
-    
   end
  
 end
