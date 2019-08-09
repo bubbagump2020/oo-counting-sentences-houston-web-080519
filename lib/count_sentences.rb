@@ -20,8 +20,9 @@ class String
     sentence_array = []
     
     
-    sentence_array = (self.split("."))
+    sentence_array = (self.split(".",))
     sentence_array.count
+    
     
     
   end
