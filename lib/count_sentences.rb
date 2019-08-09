@@ -18,6 +18,8 @@ class String
   def count_sentences
     sentence_count = 0
     
+    self.split()
+    
     return sentence_count = 0
   end
  
