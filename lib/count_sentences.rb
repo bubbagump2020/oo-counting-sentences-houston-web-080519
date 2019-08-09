@@ -24,8 +24,8 @@ class String
     self.split(".").each do |sentence|
       sentence = self.split(".")
       sentence_array.push(sentence)
-      self.split("?").each do |sentence|
-        sentence = self.split("!")
+      if self.exclamation? == true
+        sentence =self.split("!")
         sentence_array.push(sentence)
       end
     end
