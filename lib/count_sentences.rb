@@ -22,4 +22,5 @@ class String
     sentence_array.count
     
   end
+  binding.pry
 end
