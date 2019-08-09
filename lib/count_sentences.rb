@@ -22,7 +22,7 @@ class String
     
     
     sentence_array = (self.split("."))
-    sentence_array.split("!") 
+    binding.pry 
     sentence_array.count
     
     
