@@ -19,13 +19,7 @@ class String
     sentence_count = 0
     sentence_array = []
     
-    if self.split(self.sentence?) == true
-      sentence_count += 1
-      elsif self.split(self.question?) == true
-      sentence_count += 1
-      elsif self.split(self.exclamation?) == true
-      sentence_count += 1
-    end
+    self.split(".")
     
   end
  
