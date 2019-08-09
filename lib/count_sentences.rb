@@ -20,12 +20,7 @@ class String
     sentence_array = []
     complex_sentence_array = []
     
-    
-    self.split(".").each do |sentence|
-      self.split(".")
-    end
-    
-    sentence.count
+    self.split(".")
     
   end
  
