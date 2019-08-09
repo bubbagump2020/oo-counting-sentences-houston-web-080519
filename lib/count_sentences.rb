@@ -28,11 +28,11 @@ class String
         self.split("!").each do |sentence|
           sentence = self.split("!")
           sentence_array.push(sentence)
+          binding.pry
           return sentence_array.count
         end
-      else
-        return sentence_array.count
       end
+      return sentence_array.count
     end
     
     #sentence_array.count
