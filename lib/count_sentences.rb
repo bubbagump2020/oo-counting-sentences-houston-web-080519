@@ -24,17 +24,11 @@ class String
     self.split(".").each do |sentence|
       sentence = self.split(".")
       sentence_array.push(sentence)
-      if self.exclamation? == true
-        self.split("!").each do |sentence|
-          sentence = self.split("!")
-          sentence_array.push(sentence)
-        end
-        binding.pry
       end
       return sentence_array.count
     end
     
-    #sentence_array.count
+    sentence_array.count
     
     
     
