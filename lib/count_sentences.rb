@@ -25,6 +25,7 @@ class String
       sentence_count += 1
       elsif self.split(self.exclamation?)
       sentence_count += 1
+    end
     
   end
  
