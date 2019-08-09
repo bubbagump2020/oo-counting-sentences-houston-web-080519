@@ -9,7 +9,6 @@ class String
 
   def question?
     self.end_with?("?")
-    puts self
   end
 
   def exclamation?
@@ -20,11 +19,13 @@ class String
     sentence_count = 0
     sentence_array = []
     
-    sentence = self.split(self.sentence?, self.question?)
-    sentence_array.push(sentence)
-    binding.pry
-    return sentence_count = 0
-    binding.pry
+    if self.split(self.sentence?)
+      sentence_count += 1
+      elsif self.split(self.question?)
+      sentence_count += 1
+      elsif self.split(self.exclamation?)
+      sentence_count += 1
+    
   end
  
 end
