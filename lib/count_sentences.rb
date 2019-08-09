@@ -25,7 +25,7 @@ class String
       sentence = self.split(".")
       sentence_array.push(sentence)
     end
-    
+    binding.pry
     sentence_array.count
     
   end
