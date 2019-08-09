@@ -23,6 +23,7 @@ class String
     sentence_array.push(sentence)
     binding.pry
     return sentence_count = 0
+    binding.pry
   end
  
 end
