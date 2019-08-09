@@ -17,9 +17,11 @@ class String
 
   def count_sentences
     sentence_count = 0
+    sentence_array = []
     
-    self.split(self.sentence?, self.question?)
-    
+    sentence = self.split(self.sentence?, self.question?)
+    sentence_array.push(sentence)
+    binding.pry
     return sentence_count = 0
   end
  
