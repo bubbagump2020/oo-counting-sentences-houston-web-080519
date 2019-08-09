@@ -24,7 +24,7 @@ class String
     self.split(".").each do |sentence|
       sentence = self.split(".")
     end
-    binding.pry
+    
     sentence.count
     
   end
