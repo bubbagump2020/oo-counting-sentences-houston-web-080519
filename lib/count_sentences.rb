@@ -21,8 +21,8 @@ class String
     complex_sentence_array = []
     
     
-    sentence_array = (self.split("."))
-    binding.pry 
+    sentence_array = (self.split(".")).to_i
+    #binding.pry 
     sentence_array.count
     
     
