@@ -24,13 +24,10 @@ class String
     self.split(".").each do |sentence|
       sentence = self.split(".")
       sentence_array.push(sentence)
-      end
       return sentence_array.count
     end
     
     sentence_array.count
-    
-    
     
   end
  
